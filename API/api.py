@@ -11,8 +11,8 @@ app = FastAPI(title="Heart Disease Prediction API")
 
 
 # Load the saved model and scaler
-model = joblib.load(BASE_DIR / "HeartDisease_model.pkl")
-scaler = joblib.load(BASE_DIR / "scaler.pkl")
+model = joblib.load(BASE_DIR / "W:\\DEPI - Agentic & Generative AI\\Technical\\Assignments\\Heart Disease\\HeartDisease_model.pkl")
+scaler = joblib.load(BASE_DIR / "W:\\DEPI - Agentic & Generative AI\\Technical\\Assignments\\Heart Disease\\scaler.pkl")
 
 
 class PatientInput(BaseModel):
