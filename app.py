@@ -22,9 +22,6 @@ def main():
 
         st.sidebar.header("Patient Input Features")
 
-        # Create inputs for the features (adjust these based on the 11 features kept after dropping weak ones)
-        # Note: In your notebook, you dropped weak features based on correlation.
-        # The following inputs should represent the columns in your processed 'df'.
 
         age = st.sidebar.number_input("Age", 1, 100, 50)
         sex = st.sidebar.selectbox("Sex", options=[0, 1], format_func=lambda x: "Male" if x == 1 else "Female")
